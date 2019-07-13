@@ -11,14 +11,8 @@ The code is divided as follows:
 * The [eegnet_for_power.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/eegnet_for_power.py) file contains the keras and tensorflow code to define the architecture of eegnet and train the deep learning model for unaugmented data.
 * The [eegnet_for_aug_power.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/eegnet_for_aug_power.py) file contains the keras and tensorflow code to define the architecture of eegnet and train the deep learning model for FWPTC augmented data. 
 
-## Prerequisites
-All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command for python3.6. 
+## Run 
 
-* [Cython](http://cython.org/) and run ```./utils/build-cython.sh``` to generate the necessary cython files. 
-* [numpy](http://www.numpy.org/)  
-* [pandas](https://pandas.pydata.org/)  
-* [sklearn](http://scikit-learn.org/stable/)  
-* [scipy](https://www.scipy.org/)  
-* [matplotlib](https://matplotlib.org/)  
-* [tensorflow-gpu](https://www.tensorflow.org/)  
-* [keras](https://keras.io/)  
+* run ```./utils/build-cython.sh``` to generate the necessary cython files. 
+* specify the number of data to augment in [power_data_augment_code.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/power_data_augment_code.py) to get the augmented data.
+* run [eegnet_for_aug_power.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/eegnet_for_aug_power.py) for doing regression using EEGnet on the augmented data.
