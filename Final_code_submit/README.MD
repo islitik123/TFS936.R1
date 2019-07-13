@@ -14,5 +14,5 @@ The code is divided as follows:
 ## Run 
 
 * run ```./utils/build-cython.sh``` to generate the necessary cython files. 
-* specify the number of data to augment in [power_data_augment_code.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/power_data_augment_code.py) to get the augmented data.
+* specify the number of data to augment in [power_data_augment_code.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/power_data_augment_code.py) and run to get the augmented data.
 * run [eegnet_for_aug_power.py](https://github.com/islitik123/TFS936.R1/blob/master/Final_code_submit/eegnet_for_aug_power.py) for doing regression using EEGnet on the augmented data.
