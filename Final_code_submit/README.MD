@@ -1,1 +1,1 @@
-jgkwshnv
+This repository contains the code for <b> Fuzzy Weighted Progressive Time Contortion (FWPTC) </b>, a method for data augmentaton of timeseries for regression. This is an extension of DTW algorithm using fuzzy sets. The method is applied for EEG based reaction time prediction using deep learning (EEGNet). Reaction time prediction helps to understand brain dynamics and behavior relationship in a driver fatigue prediction task.
